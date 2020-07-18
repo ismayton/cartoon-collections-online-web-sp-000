@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planateer)
   planateer.collect do |name|
-    name.first.upcase + '!'
+    name[0].upcase + '!'
   end
 end
 
